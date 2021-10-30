@@ -1,56 +1,79 @@
 # project1
 First project - SMU Data Analysis - DataViz
- - see 5.2_act04 - tips on bar charts
- - see 5.3_act09 - multi figure graph
+Alec H | Andrew P | British G | Vilma D
 
 
 # Intro
 
-The purpose of this project, how it was done. what is the story we wish to tell
+The purpose of this project was to gather and detail how a data set could be used to display the valuation of a class of vehicle across it's lifetime. 
 
 # Data Set 
-<hyperlink_to_file?>
+<https://www.kaggle.com/cisautomotiveapi/large-car-dataset?>
 
-what was the data set we ended with
-advantages and limitations of the data set (only having a smaple of the type of cars available, inconsistent pricing, lack of data on individuals who bought a car and used it until it died 300K mileage?)
-where there any outliers?
+The data set was massive and contained so much awesome information that would be important for any prospective vehicle owner. Having a data set of this size allowed us to split it into 3 parts equalling to 200K-500K entries after filtering/processing.
+
+**Issues with the data set:**
+* There were so many columns including aspects about the vehicles, with some pertaining to only one body class, that many entries contained Null/NaN values.
+* After filtering aspects of the dataset, it was common to find outliers where someone entered incorrect information into a field. E.g. A phone number was used as mileage for a few hundred Sedans. With outrageous ask prices of $200K for cars worth only $12K being recorded as well, which was almost certainly an error.
+
 
 # Method
+ After deciding to split up the vehicles per person per body class we used a IPYNB file to separate the files, sort based on criteria and combine to a dirty dataset pertaining to only Body Class we wanted to analyze (Trucks, SUVs, and Sedans).
 
-How did we end up with the data we used? what were some challenges(maybe save challenges for conclusion) 
-what did we do with the data, how did we use it? 
-example: GRAPHING
-"This was done by passing columns of the Clean_DataFrame through functions [ .groupby() &/or .value_counts() ] this allowed us to group the data as desire for comparison and pull values for storing as numbers or strings to make easy x/y labels to match graphs."
+Once the datasets were made, each set was cleaned of outliers and columns that would not pertain to the information we wanted to compare.
 
-The next plan of action was to move data through different graphs as a means of displaying the data to observe certain correlations between THIS and THAT variable noting which proved most promising based on teh .corr() function passed over the Data Frame..
+The clean data was then graphed to display correlations between aspects we considered most import -Cost & Mileage- the two most asked about details of a vehicle when a person looks to acquire one. Final data results were then calculated and included in the PowerPoint for explanatory purposes.
 
-How did we produce the visualizations, why did we choose the graphs we chose
-Scatter, Line, Pie, Bar, Etc [https://datavizcatalogue.com/search.html]
+# Analysis - 
+**Sedans** 
 
-# Analysis - the meat of the readme
+ The Sedans held the most entries, but the data was almost too generic and to avoid making just generic assumptions based on the Correlation outputs of the analysis in trends we used the Sedan information as an opening into the concept of vehicle presence in the marketplace.
+- Since Sedans are the simplest vehicle in our data set they have the lowest cost and lowest utility meaning that Sedans do not tend to hold value as well as Trucks, offering less to describe in a trend of value over time.
 
-what did we observe
-what are the notable trends
-which vehicle/model/make/ was best
+ **Trucks**
 
-what has the story of the vehicles told us so far
+ This Data set was used to provide the core of individual break downs because they held a special quality of being either Diesel or Gas Powered, offering a new parameter to gauge value over time.
 
+ **SUVs**
+ This data offered a challenge in how it could be used. This became apparent after filtering entries and learning that the classification of SUV varies so widely between dealers and manufacturers. Because this data wound up being essentially half Sedan and half Truck, we decided that it would be omitted since we had over 300K entries just between the Sedan and Truck datasets.
+- Having the SUV data prove less than useful was important in displaying just how essential detailed data recording is, and how using open datasets can reduce the quality of information available.
 
-I observed a trend in this graph and that graph of a make/model vs average of all cars to show
-1. A strong/med/weak positive/negative correlation in so and so.
-2. more data comparison perhaps vs a runner-up
-
-This leads me to think that there is a relationship between the this and that attribute that contributes to this car or this make/model being the best for overall longevity
-
-talk about how the data could look in other graphs? maybe drop in a multi figure graph to show attributes vs a similar X like we did in the crime excercise
-
-any outliers explained in further detail
-
-do we have or need a control? we could make some general oberservatin against the average of all cars
 
 # Conclusion
+Gathering the data was the initial challenge until it came to filtering out what we needed. Having too much information can lead to false conclusion due to items being compared that would lead to an imbalance of Causation and Correlation; especially when the information contains as errors ( a consequence of the size of the data set).
+Having a question, breaking down the items needed, then taking the analysis of the information step by step was the most helpful manner of proceeding.
 
-Grouping the right information to tell the story of the data may be a challenge in some parts of the assignment. 
+Consistent communication was a challenge as well when it came to organizing aspects of life to meet outside of class and discuss what we wanted to do and where we would take the project after stepping past hurdles involving the data set as they arose. Overall, it was an exciting dip into the world of data modeling and analysis.
 
-the key is to break down the challenge in to separate chunks and accomplish those chunks
+
+
+
+
+# ------------------------------ Slides ------------------------------
+
+![Title](Slide_Images/Slide1.png)
+
+![Layout](Slide_Images/Slide2.png)
+
+![Summary](Slide_Images/Slide3.png)
+
+![Supply_Concept](Slide_Images/Slide4.png)
+
+![Market_Saturation_&_PricevMileage](Slide_Images/Slide5.png)
+
+![Sedan_Mileage](Slide_Images/Slide6.png)
+
+![Ford_Regressions](Slide_Images/Slide7.png)
+
+![Toyota_Regressions](Slide_Images/Slide8.png)
+
+![GMC_Regressions](Slide_Images/Slide9.png)
+
+![Ram_&_Chev_Regressions](Slide_Images/Slide10.png)
+
+![Regressions_ Summary](Slide_Images/Slide11.png)
+
+![Challenges](Slide_Images/Slide12.png)
+
+![Questions](Slide_Images/Slide13.png)
 
