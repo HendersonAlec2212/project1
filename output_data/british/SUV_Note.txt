@@ -1,0 +1,2 @@
+The reason the SUV information was not used in the presentation was redundency. The SUV category in the dataset not only pulled in sedans but it also trucks.
+It would have been repetitive information that would ause issues and outliers. The SUV data was cleaned, statistics were ran on it and thats how we came to this conclusion.
