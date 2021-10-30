@@ -1,4 +1,4 @@
-# project1
+# Project1
 First project - SMU Data Analysis - DataViz
 Alec H | Andrew P | British G | Vilma D
 
@@ -24,7 +24,7 @@ Once the datasets were made, each set was cleaned of outliers and columns that w
 
 The clean data was then graphed to display correlations between aspects we considered most import -Cost & Mileage- the two most asked about details of a vehicle when a person looks to acquire one. Final data results were then calculated and included in the PowerPoint for explanatory purposes.
 
-# Analysis - 
+# Analysis
 **Sedans** 
 
  The Sedans held the most entries, but the data was almost too generic and to avoid making just generic assumptions based on the Correlation outputs of the analysis in trends we used the Sedan information as an opening into the concept of vehicle presence in the marketplace.
@@ -35,6 +35,7 @@ The clean data was then graphed to display correlations between aspects we consi
  This Data set was used to provide the core of individual break downs because they held a special quality of being either Diesel or Gas Powered, offering a new parameter to gauge value over time.
 
  **SUVs**
+
  This data offered a challenge in how it could be used. This became apparent after filtering entries and learning that the classification of SUV varies so widely between dealers and manufacturers. Because this data wound up being essentially half Sedan and half Truck, we decided that it would be omitted since we had over 300K entries just between the Sedan and Truck datasets.
 - Having the SUV data prove less than useful was important in displaying just how essential detailed data recording is, and how using open datasets can reduce the quality of information available.
 
@@ -49,7 +50,7 @@ Consistent communication was a challenge as well when it came to organizing aspe
 
 
 
-# ------------------------------ Slides ------------------------------
+# --------------------------- Slides ---------------------------
 
 ![Title](Slide_Images/Slide1.png)
 
