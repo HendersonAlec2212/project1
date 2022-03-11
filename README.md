@@ -1,5 +1,4 @@
-# Project1
-First project - SMU Data Analysis - DataViz
+# vehicle price analysis
 Alec H | Andrew P | British G | Vilma D
 
 
@@ -78,3 +77,8 @@ Consistent communication was a challenge as well when it came to organizing aspe
 
 ![Questions](Slide_Images/Slide13.png)
 
+
+
+
+Email: hendersonalec2212@gmail.com
+LinkedIn: https://www.linkedin.com/in/alec-henderson-8011b521a/
